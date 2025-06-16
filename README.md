@@ -29,45 +29,37 @@ By default, the server listens on port 8080.
 📬 HTTP API
 
 1. Create a Task
-
+```bash
 curl --location 'http://localhost:8080/api/v1/tasks' \
 --header 'Content-Type: application/json' \
 --data '{
-    "title": "Test Task",
-    "description": "This is a test task"
+"title": "Test Task",
+"description": "This is a test task"
 }'
-
-
-
+```
 
 ⸻
 
 2. Get Task by ID
-
+```bash
 curl --location 'http://localhost:8080/api/v1/tasks/2'
-
-
+```
 
 ⸻
 
 3. Get All Tasks
-
+```bash
 curl --location 'http://localhost:8080/api/v1/tasks'
-
-
-
+```
 
 ⸻
 
 4. Delete a Task
-
+```bash
 curl --location --request DELETE 'http://localhost:8080/api/v1/tasks/1'
-
-
-
+```
 
 ⸻
-
 
 
  Notes for Developers
