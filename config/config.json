@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port": 8080,
+        "env": "development"
+    },
+    "logger": {
+        "log_file": "logs/app.log",
+        "log_to_file": true,
+        "log_to_stdout": true,
+        "max_size": 100,
+        "max_backups": 3,
+        "max_age": 28,
+        "compress": true
+    }
+} 
