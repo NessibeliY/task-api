@@ -20,6 +20,7 @@ A simple HTTP service for handling long-running asynchronous I/O-bound tasks (e.
 
 ```bash
 go run .
+```
 
 By default, the server listens on port 8080.
 
@@ -78,6 +79,6 @@ curl --location --request DELETE 'http://localhost:8080/api/v1/tasks/1'
 ⸻
 
  Run Tests
-
+```bash
 go test ./...
-
+```
